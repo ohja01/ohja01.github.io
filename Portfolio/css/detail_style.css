@@ -1,0 +1,127 @@
+/* detail_style.css */
+section#main {
+    width: 1000px;
+    margin: auto;
+}
+
+/* 왼쪽에 위치한 메뉴 파트*/
+#menu3 {
+    width: 220px;
+    float: left;
+    margin-top: 140px;
+    font-weight: bold;
+    background: white;
+}
+#menu3 h3 {
+    padding: 12px;
+    background-color: darksalmon;
+    color: #ffffff;
+    text-align: center;
+}
+#menu3 li {
+    color: #555555;
+    padding: 10px 0px 10px 30px;
+    border-bottom: solid 1px #cccccc;
+}
+
+/* 소개1 파트 */
+#introduction1 #intro_img img {
+    width: 400px;
+    height: 440px;
+    float: left;
+    margin: 140px 30px 70px 30px;
+}
+#introduction1 #intro {
+    float: left;
+    background-color: white;
+    font-size: 24px;
+    margin-top: 180px;
+    padding: 30px;
+    border: 2px solid coral;
+}
+#intro ul li {
+    margin: 30px;
+}
+#intro img {
+    width: 33px;
+    margin-right: 20px;
+}
+
+/* 소개2 파트 */
+#introduction2 {
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border: 2px dotted burlywood;
+    box-shadow: 3px 3px 5px #ccc;
+}
+#introduction2 #name {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#introduction2 img {
+    width: 170px;
+    margin: 10px;
+}
+#introduction2 #story p {
+    margin: 20px;
+    font-size: 15px;
+}
+
+/* 유의사항 파트 */
+#note {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+#note h3 {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+#note h3 span {
+    color: red;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+#note h2 {
+    font-size: 30px;
+}
+
+/* 댓글 파트 */
+#comment {
+    width: 750px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: 1px solid #aaa;
+}
+#comment h3 {
+    margin-bottom: 10px;
+}
+#comment #op {
+    margin-right: 10px;
+    float: left;
+}
+#comment textarea {
+    float: left;
+    width: 500px;
+    height: 110px;
+    padding: 12px 12px;
+    margin: 0px 10px;
+}
+input[type=button] {
+    float: left;
+    width: 50px;
+    height: 30px;
+    margin: 0px 10px;
+}

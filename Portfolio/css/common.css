@@ -1,0 +1,111 @@
+/* common.css */
+*{ margin: 0; padding: 0; }
+body {
+    font-family: "맑은 고딕", "돋움";
+    font-size: 12px;
+    color: #444444;
+    background-color: #f0f0f0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #444444;
+}
+.clear {
+    clear: both;
+}
+
+/* 헤더 부분 */
+header {
+    height: 120px;
+}
+header #top {
+    width: 990px;
+    margin: 0 auto;
+}
+/* 검색 파트 */
+header #search {
+    float: right;
+}
+header #search #search_title {
+    float: left;
+    margin: 20px 10px 10px 0px;
+    font-weight: bold;
+}
+header #search #search_form {
+    float: left;
+    margin: 20px 10px 10px 0px;
+}
+header #search #search_img {
+    width: 10px;
+    float: left;
+    margin: 20px 10px 10px 0px;
+}
+/* 탑 메뉴 파트 */
+header #menu1 {
+    float: right;
+    font-weight: bold;
+}
+header #menu1 li {
+    display: inline-block;
+    margin: 10px 0px 0px 20px
+}
+header #menu1 li:hover {
+    color: darksalmon;
+}
+/* 타이틀/로고 파트 */
+header #logo{
+    text-align: center;
+    font-size: 13px;
+    margin: 0px 0px 30px 100px;
+}
+header #logo h2 {
+    font-size: 50px;
+    color: coral;
+}
+/* 메인 메뉴 파트 */
+header #menu2 {
+    height: 40px;
+    background: #555555;
+}
+header #menu2 ul {
+    width: 990px;
+    margin: auto;
+}
+header #menu2 li {
+    font-weight: bold;
+    display: inline-block;
+    margin: 12px 64px 0px 64px;
+}
+header #menu2 a {
+    color: white;
+}
+header #menu2 a:hover {
+    color: bisque;
+}
+
+/* 푸터 부분 */
+footer {
+    background: #555555;
+    height: 220px;
+}
+footer #SNS img {
+    width: 40px;
+    float: right;
+    margin: 20px 20px 10px 10px;
+}
+footer #SNS span{
+    filter: invert(100%);
+}
+footer #guide {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+footer #guide img {
+    width: 15px;
+    filter: invert(100%);
+}

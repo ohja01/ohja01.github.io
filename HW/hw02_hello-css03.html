@@ -1,0 +1,71 @@
+<!-- hw02_hello-css03.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Self-introduction-sub page</title>
+    <style>
+      body {
+        background-color: linen;
+      }
+      h3 {
+        color: #FA8072;
+        font-size: 20px;
+        text-shadow: 4px 4px 2px #cccccc;
+      }
+      p {
+        font-family: '맑은 고딕';
+        font-size: 13px;
+        margin: 20px;
+      }
+      #home {
+        float: right;
+      }
+      #home a:hover{
+         background-color: #FA8072;
+      }
+      #img_profile {
+        border: 3px solid #FA8072;
+        border-radius: 100%;
+        margin-left : 50px;
+        margin-right : 50px;
+      }
+      #magin {
+        margin-left : 350px;
+      }
+      ul.list {
+        font-family: '맑은고딕';
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="home">
+      <a href="../index.html"><img src="../img/home.png" width="44" alt="home_icon"></a>
+    </div>
+    <h1>Profile</h1>
+    <hr>
+    <br>
+    <img id="img_profile" src="./img/subPic.jpg" width="240" align="left" title="강아지 이름은 동이입니다:)">
+    <div id="magin">
+        <h3>Name</h3>
+        <p>오정아 (O Jeonga)</p>
+        <h3>Birth</h3>
+        <p>2001.04.18</p>
+        <h3>E-mail</h3>
+        <p>ohja01@naver.com</p>
+    </div>
+    <br>
+    <p>안녕하세요. 저는 인천 부평구 삼산동에 거주하고 있습니다.<br>고등학교에서 C언어를 접해보면서 내 손으로 직접 코드를 짜서 프로그램을 만드는 것에 흥미를 느끼게 되었고,<br>더 깊이 있는 배움을 통해 많은 경험을 하고 전문적으로 배우고 싶어 컴퓨터소프트웨어공학과에 지원하게 되었습니다.<br>현재 <span style="font-size: 16px"><a href="https://www.dongyang.ac.kr/web/www" target="_blank">동양미래대학교</a></span>에 재학 중입니다. Excel, Python, C, Html 등을 배우고 있습니다.</p>
+    <ul class="list">
+      <li>전공 : 컴퓨터소프트웨어공학과</li>
+      <li>반 : YA</li>
+      <li>학번 : 20200924</li>
+    </ul>
+    <video width='400' height='300' controls loop>
+    <source src='./assets/di-video.mp4' type='video/mp4'>
+    </video>
+    <br><br>
+    <a href="./hw02_index.html">소개페이지로</a>
+  </body>
+</html>

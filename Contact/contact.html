@@ -1,0 +1,163 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact_style.css">
+    
+    <style>
+        h1{
+            color: darkgreen;
+            margin: 20px 0px;
+        }
+        h2 {
+            color: white;
+            margin: 20px 0px;
+            background-color: rgba(0, 100, 0, 0.6);
+            font-size: 36px;
+        }
+        strong, em{
+            color: orange;
+            margin-bottom: 20px;
+        }
+        #square { list-style-type: square; }
+        #circle{
+            list-style-type: circle;
+            color: ;
+        }
+        .circle {
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+        .decimal {
+            list-style-type: decimal;
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+        #content li{
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+        #content a:hover {
+            background-color: lightgreen;
+            color: #000000;
+        }
+/*        테이블 */
+        table, tr, th, td {
+            border: solid 1px #ffd30d;
+            border-collapse: collapse;
+            padding: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: bold;
+            color: #000000;
+        }
+        #tbl_contact input[type='submit'] {
+            margin-top: 4px;
+            padding: 12px 17px;
+            color: #fff;
+            background: #fa6e3e;
+            border: 0;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            float: right;
+            display: inline-block;
+            width: 80px;            
+        }
+        #tbl_contact input[type='submit']:hover {
+            background: #d55427;
+            cursor: pointer;
+        }
+
+/*        contact 헤더 */
+        #txt_center {
+            font-size: 38px;
+            text-align: center;
+            background-color: rgba(224, 216, 52, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<!--       GNB 메뉴 시작 -->
+        <div id="button">
+            <a href="../index.html"><img src="../img/home.png" alt="HOME"></a>
+            <p>YA 오정아</p>
+        </div>
+       <div id="nav">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../HW/hw02_index.html">HW02</a></li>
+              <li><a href="../HW/hw03.html">HW03</a></li>
+              <li><a href="../HW/hw04_cover.html">HW04</a></li>
+              <li><a href="../Portfolio/portfolio.html">Portfolio</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="../index.html">Profile</a></li>
+            </ul>
+        </div>
+<!--       GNB 메뉴 끝 -->  
+  
+  <div id="content">
+    <div class="contA">
+      <h1>인터넷기초실습 교과목</h1>
+      <p>웹 프로그래밍 기초가 되는 <strong>HTML5</strong>와 <strong>CSS3</strong>를 중심으로 학습합니다.</p>
+      <p>HTML5과 CSS3를 사용한 <em>웹 사이트 제작</em>을 작성합니다.</p> 
+    </div>
+<!--    본문 시작 (Contact) -->    
+        <div class="contB">
+        <h2 id="txt_center">메시지 보내기</h2>   
+
+        <div id='tbl_contact'>
+         <form id='form_contact'>
+          <table border="3">
+             <tr>
+              <td> 이름 </td>
+              <td> <input type="text" name="writer" size="60"> </td>
+              <td> 연락처 </td>
+              <td> <input type="password" name="pw" size="25"> </td>
+             </tr>
+             <tr>
+              <td> 이메일 </td>
+              <td> <input type="text" name="email" size="43"> @
+              <select>
+               <option> daum.net </option>
+               <option selected> gmail.com </option>
+               <option> naver.com </option>
+               <option> 직접입력 </option>
+              </select> </td>
+              <td> <img src="./img/lock.png" width="30" alt=""> </td>
+              <td> <input type="radio" name="protect" checked> 공개 
+                   <input type="radio" name="protect"> 비공개</td>
+             </tr>
+             <tr>
+              <td> 제목 </td>
+              <td colspan="4"> <input type="text" size="110"> </td>
+             </tr>
+             <tr>
+              <td> 메시지 </td>
+              <td colspan="4"> <textarea cols="113" rows="20"></textarea> </td>
+             </tr>
+          </table>
+          <div id="tbl_submit">
+              <input type="submit" value="전송">
+          </div>     
+          </form>    
+        </div>
+      </div>
+   </div>   
+    <!-- content 끝-->
+    
+    <!--       footer 시작  -->
+       <div id="footer">
+          <div id="footer_copyright">
+            <p>
+                Copyright &copy <a href="./index.html" class="site">O Jeonga</a> All rights reserved.
+            </p>
+            <span>EMAIL : ohja01@naver.com</span>
+          </div>
+       </div>
+<!--       footer 끝  -->  
+  </div>
+  </body>
+</html>

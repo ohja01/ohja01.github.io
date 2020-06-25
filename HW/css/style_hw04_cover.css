@@ -1,0 +1,38 @@
+ /* style_hw04_cover.css */
+
+* { margin: 0; padding: 0; }
+#wrapper {
+  font-family: "맑은고딕";
+  text-align: center;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url('../img/macaron1.jpg');
+  background-size: cover;
+}
+#title {
+  padding: 20px;
+  background-color: bisque;
+  border: 2px solid #FFBA85;
+  color: #E0C4B5;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 0px 0px #000000, -1px 0px 0px #000000, 0px 1px 0px #000000, 0px -1px 0px #000000;
+}
+#image {
+  padding: 10px;
+}
+#image img {
+  border-radius: 100%;
+  border: 3px solid pink;
+}
+#description {
+  padding: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#etymology {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+}
